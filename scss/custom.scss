@@ -1,1 +1,35 @@
 // Custom styles 
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+    font-weight: 200;
+    .navbar-brand span {
+        font-weight: 200;
+    }
+    .nav-item {
+        font-size: 1.4rem;
+    }
+    .nav-link:hover {
+        transition: border 0.3s;
+        border-bottom: 1px solid whitesmoke;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+    .navbar {
+        background: black;
+        .nav-link:hover {
+            border-bottom: none;
+        }
+    }
+}

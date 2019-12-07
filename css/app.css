@@ -6780,5 +6780,23 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+body {
+  font-family: "Raleway", sans-serif; }
+
+.navbar {
+  font-weight: 200; }
+  .navbar .navbar-brand span {
+    font-weight: 200; }
+  .navbar .nav-item {
+    font-size: 1.4rem; }
+  .navbar .nav-link:hover {
+    transition: border 0.3s;
+    border-bottom: 1px solid whitesmoke; }
+
+@media (max-width: 768px) {
+  .navbar {
+    background: black; }
+    .navbar .nav-link:hover {
+      border-bottom: none; } }
 
 /*# sourceMappingURL=app.css.map */
