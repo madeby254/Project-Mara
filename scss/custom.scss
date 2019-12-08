@@ -6,6 +6,10 @@ body {
 
 .navbar {
     font-weight: 200;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
     .navbar-brand span {
         font-weight: 200;
     }
@@ -27,7 +31,10 @@ body {
     }
 }
 
-
+#book {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
 
 
 
@@ -38,5 +45,12 @@ body {
         .nav-link:hover {
             border-bottom: none;
         }
+    }
+}
+
+#showcase {
+    min-height: 500px;
+    h1 {
+        font-size: 4rem;
     }
 }

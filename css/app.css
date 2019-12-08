@@ -6784,7 +6784,11 @@ body {
   font-family: "Raleway", sans-serif; }
 
 .navbar {
-  font-weight: 200; }
+  font-weight: 200;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0; }
   .navbar .navbar-brand span {
     font-weight: 200; }
   .navbar .nav-item {
@@ -6800,10 +6804,18 @@ body {
     font-family: "Qestrial", sans-serif;
     line-height: 1; }
 
+#book {
+  font-size: 1.5rem;
+  border-radius: 2rem; }
+
 @media (max-width: 768px) {
   .navbar {
     background: black; }
     .navbar .nav-link:hover {
       border-bottom: none; } }
+#showcase {
+  min-height: 500px; }
+  #showcase h1 {
+    font-size: 4rem; }
 
 /*# sourceMappingURL=app.css.map */
