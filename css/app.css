@@ -6793,6 +6793,13 @@ body {
     transition: border 0.3s;
     border-bottom: 1px solid whitesmoke; }
 
+#showcase {
+  background: url("../IMG/Gallery/Social6.jpg") bottom center/cover no-repeat;
+  min-height: 750px; }
+  #showcase h1 {
+    font-family: "Qestrial", sans-serif;
+    line-height: 1; }
+
 @media (max-width: 768px) {
   .navbar {
     background: black; }
