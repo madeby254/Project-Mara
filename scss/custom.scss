@@ -36,8 +36,11 @@ body {
     border-radius: 2rem;
 }
 
-
-
+#quotes {
+    i {
+        opacity: 0.3;
+    }
+}
 
 @media(max-width: 768px) {
     .navbar {
