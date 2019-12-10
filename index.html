@@ -36,7 +36,7 @@
                     <a href="" class="nav-link">Tours</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link">Book</a>
+                    <a href="" class="nav-link" data-toggle="modal" data-target="#booking">Book</a>
                 </li>
             </ul>
         </div>
@@ -48,7 +48,8 @@
             <h3 class="display-5 mb-0">Experience Nature</h3>
             <h1 class="display-1">Masai Mara</h1>
             <p class="lead d-none d-md-block">Nature like its meant to be</p>
-            <button id="book" class="btn-lg btn-primary px-5">Book Now</button>
+            <button id="book" class="btn-lg btn-primary px-5" data-toggle="modal" data-target="#booking">Book
+                Now</button>
         </div>
     </section>
 
@@ -267,7 +268,7 @@
                 <a href="" class="nav-link text-white">FAQ</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-white">BOOK NOW</a>
+                <a href="" class="nav-link text-white" data-toggle="modal" data-target="#booking">BOOK NOW</a>
             </li>
             <li class="nav-item">
                 <a href="" class="nav-link text-white">VISA</a>
@@ -279,6 +280,59 @@
         </ul>
     </section>
 
+
+    <div id="booking" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Inquire</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span class="aria-hidden=" true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Fill out the form bellow and we will get back to you as soon as we can</p>
+                    <form action="">
+                        <div class="form-group" action="">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="adults">Number of Adults</label>
+                            <select class="form-control" id="adults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Number of Children</label>
+                            <select class="form-control" id="children">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="request">Additional Request</label>
+                            <textarea id="request" rows="3" class="form-control">
+
+                            </textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
